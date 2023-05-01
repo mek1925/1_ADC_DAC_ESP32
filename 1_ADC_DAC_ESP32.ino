@@ -34,7 +34,7 @@ void loop()
 {
   while (Serial.available() > 0)
   {
-    
+
     // Reading DAC value
     delay(500);
     String dacString = Serial.readString();
